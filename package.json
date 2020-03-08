@@ -1,0 +1,21 @@
+{
+  "name": "david-rose-quotes",
+  "version": "1.0.0",
+  "description": "A simple API for generating David Rose (Schitt's Creek) quotes.",
+  "main": "server.js",
+  "scripts": {
+    "test": "npm test",
+    "start": "node server.js"
+  },
+  "keywords": [
+    "schitt's",
+    "creek",
+    "david",
+    "rose"
+  ],
+  "author": "Elizabeth Tackett",
+  "license": "MIT",
+  "dependencies": {
+    "express": "4.17.1"
+  }
+}
