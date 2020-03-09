@@ -144,6 +144,7 @@ module.exports = [
     show: "schitt's creek",
     quote: "Would we not all agree that words are weapons?",
     character: "david rose"
+  },
   {
     id: 25,
     show: "schitt's creek",
@@ -168,6 +169,7 @@ module.exports = [
     show: "schitt's creek",
     quote: "Thank you so much for this. It was entirely unhelpful.",
     character: "david rose"
+  },
   {
     id: 29,
     show: "schitt's creek",
