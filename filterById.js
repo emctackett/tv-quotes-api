@@ -5,7 +5,7 @@ const filterById = (id) => {
 
   return quotes.filter(quote => {
     return quote.id === id
-  });
+  })[0];
 }
 
 module.exports = filterById;
