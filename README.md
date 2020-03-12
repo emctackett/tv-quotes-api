@@ -8,7 +8,7 @@ The API currently features 36 quotes from each featured character, for a total o
 
 ## API endpoints
 
-### GET (/|/quotes)
+### `GET (/|/quotes)`
 
 Matches a home path of either `/` or `/quotes`.
 
@@ -33,7 +33,7 @@ Returns an array of all quotes.  Each unique quote is represented by an object i
 ... ]
 ```
 
-### GET /quotes/random
+### `GET /quotes/random`
 
 Returns a single object representing one quote, randomly selected by index from the array of all available quotes.
 
@@ -48,7 +48,7 @@ Returns a single object representing one quote, randomly selected by index from 
 }
 ```
 
-### GET /quotes/:id
+### `GET /quotes/:id`
 
 Returns a single object representing one quote, filtered from the array of all quotes by matching the `id` parameter from the GET request to the value of the quote object's `id` key.
 
@@ -65,7 +65,7 @@ Valid ids are between 1-108, inclusive.
 }
 ```
 
-### GET /quotes/character/:name
+### `GET /quotes/character/:name`
 
 Returns an array of objects each representing a unique quote.  The returned objects are those that have a `character` value matching the `:name` parameter of the GET request.
 
@@ -96,4 +96,5 @@ Clone the repository to your local machine.
 From the command line:
 
 `npm install`
+
 `npm start`
