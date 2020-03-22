@@ -8,6 +8,11 @@ const retrieveRandomQuote = require('./retrieveRandomQuote');
 const app = express();
 const port = process.env.PORT || 4000;
 
+app.all('*', (req, res, next) => {
+  res.set("Access-Control-Allow-Origin", "*");
+  next();
+});
+
 app.get('(/|/quotes)', (req, res) => {
   res.send(quotes);
 });
